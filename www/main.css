@@ -1,9 +1,13 @@
+body {
+  padding-top:15px;
+}
+
 #horizontal, #vertical {
   position: absolute;
   display: block;
   margin:0;
   padding: 0;
-  top:30px;
+  top:45px;
   bottom: 0;
   width: 100%;
 }
