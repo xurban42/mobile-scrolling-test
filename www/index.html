@@ -10,6 +10,7 @@
     <script src="overthrow.js"></script> 
   </head>
   <body>
+    <div id="btn"><button id="switch">horizontal/vertical</button></div>
     <div id="horizontal">
       <div class="container horizontal">
       <div class="title">iframe:</div>
@@ -28,22 +29,24 @@
         <div id="overthrow-horizontal" class="overthrow horizontal-scroll-div"></div>
       </div>
     </div>
-    <div id="vertical">
-      <div class="container vertical">
-        <div class="title">iframe:</div>
-        <div id="iframe-scroll-vertical" class="vertical-scroll-div"></div>
-      </div>
-      <div class="container vertical">
-        <div class="title">scroll-auto:</div>
-        <div id="scroll-auto-vertical" class="vertical-scroll-div"></div>
-      </div>
-      <div class="container vertical">
-        <div class="title">scroll-touch:</div>
-        <div id="touch-scroll-vertical" class="vertical-scroll-div"></div>
-      </div>
-      <div class="container vertical">
-        <div class="title">overthrow:</div>
-        <div id="overthrow-vertical" class="vertical-scroll-div"></div>
+    <div id="vertical" class="hidden">
+      <div>
+        <div class="container vertical">
+          <div class="title">iframe:</div>
+          <div id="iframe-scroll-vertical" class="vertical-scroll-div"></div>
+        </div>
+        <div class="container vertical">
+          <div class="title">scroll-auto:</div>
+          <div id="scroll-auto-vertical" class="vertical-scroll-div"></div>
+        </div>
+        <div class="container vertical">
+          <div class="title">scroll-touch:</div>
+          <div id="touch-scroll-vertical" class="vertical-scroll-div"></div>
+        </div>
+        <div class="container vertical">
+          <div class="title">overthrow:</div>
+          <div id="overthrow-vertical" class="overthrow vertical-scroll-div"></div>
+        </div>
       </div>
     </div>
     <script  type="text/javascript">
