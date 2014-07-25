@@ -65,6 +65,12 @@ div#btn {
   line-height: 20px;
 }
 
+.container.vertical .title {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .container.vertical > .vertical-scroll-div{
   border: solid 2px;
   position: absolute;

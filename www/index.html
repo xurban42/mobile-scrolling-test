@@ -13,38 +13,38 @@
     <div id="btn"><button id="switch">horizontal/vertical</button></div>
     <div id="horizontal">
       <div class="container horizontal">
-      <div class="title">iframe:</div>
+      <div class="title">iFrame body:</div>
         <div id="iframe-scroll-horizontal" class="horizontal-scroll-div"></div>
       </div>
       <div class="container horizontal">
-        <div class="title">scroll-auto:</div>
+        <div class="title">"overflow-x:auto;":</div>
         <div id="scroll-auto-horizontal" class="horizontal-scroll-div"></div>
       </div>
       <div class="container horizontal">
-        <div class="title">scroll-touch:</div>
+        <div class="title">"-webkit-overflow-scrolling: touch;":</div>
         <div id="touch-scroll-horizontal" class="horizontal-scroll-div"></div>
       </div>
       <div class="container horizontal">
-        <div class="title">overthrow:</div>
+        <div class="title">Overthrow polyfill:</div>
         <div id="overthrow-horizontal" class="overthrow horizontal-scroll-div"></div>
       </div>
     </div>
     <div id="vertical" class="hidden">
       <div>
         <div class="container vertical">
-          <div class="title">iframe:</div>
+          <div class="title" onclick="alert('iFrame body');">iFrame...</div>
           <div id="iframe-scroll-vertical" class="vertical-scroll-div"></div>
         </div>
         <div class="container vertical">
-          <div class="title">scroll-auto:</div>
+          <div class="title" onclick="alert('overflow-x:auto;');">"overflow...</div>
           <div id="scroll-auto-vertical" class="vertical-scroll-div"></div>
         </div>
         <div class="container vertical">
-          <div class="title">scroll-touch:</div>
+          <div class="title" onclick="alert('-webkit-overflow-scrolling: touch;');">"webkit-...</div>
           <div id="touch-scroll-vertical" class="vertical-scroll-div"></div>
         </div>
         <div class="container vertical">
-          <div class="title">overthrow:</div>
+          <div class="title" onclick="alert('Overthrow polyfill');">Overthrow...</div>
           <div id="overthrow-vertical" class="overthrow vertical-scroll-div"></div>
         </div>
       </div>
